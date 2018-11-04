@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Anticipation des retards de vol</title>
+		<style>
+            *
+            {
+                font-family: Arial;
+            }
+			h1, form
+			{
+				text-align: center;
+			}
+			p
+			{
+				width: 75%;
+				margin: auto;
+				margin-bottom:50px;
+			}
+			.imageflottante
+			{
+				float: left;
+				margin-right:10px;
+				margin-bottom:10px;
+				margin-top:5px;
+			}
+        </style>
+    </head>
+	
+	<body>
+<h1>Anticipation des retards de vol</h1>
+
+<p>
+	<img src="https://lacalle.com.ve/wp-content/uploads/2017/10/59d85d46e9180fe50d8b4567.jpg" class="imageflottante" width="50" alt="Pop-corn" title="pop pop pop corn !"/>
+	Vous avez sélectionné la compagnie {{compagnie}}, merci de choisir les aéroports de départ et d'arrivée:<br />
+</p>
+
+<form method="post" action="prediction">
+	<p>
+		<label for="aero_dep">Aéroport de départ</label>: 
+		<select name="aero_dep">
+			{% for v in liste_dep: %}
+			<option>{{v}}
+			{% endfor %}
+		</select>
+	</p>
+	<p>
+		<label for="aero_arr">Aéroport d'arrivée</label>: 
+		<select name="aero_arr">
+			{% for v in liste_arr: %}
+			<option>{{v}}
+			{% endfor %}
+		</select>
+	</p>
+	<p>
+		<input type="submit"/>
+	</p>
+	<p>
+		<input type="hidden" name="date_dep" id="date_dep" value={{date}}><br />
+		<input type="hidden" name="heure_dep" id="heure_dep" value={{heure_d}}><br />
+		<input type="hidden" name="heure_arr" id="heure_arr" value={{heure_a}}><br />
+		<input type="hidden" name="duree_totale" id="duree_totale" value={{duree}}><br />
+		<input type="hidden" name="airline" id="airline" value={{compagnie}}><br />
+	</p>
+</form>
+
+
+    
+    </body>
+</html>
