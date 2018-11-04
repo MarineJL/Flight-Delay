@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Anticipation des retards de vol</title>
+        <title>Warning of possible flight delay</title>
 		<style>
             *
             {
@@ -29,38 +29,38 @@
     </head>
 	
 	<body>
-<h1>Anticipation des retards de vol</h1>
+<h1>Warning of possible flight delay</h1>
 
 <p>
-	<img src="https://lacalle.com.ve/wp-content/uploads/2017/10/59d85d46e9180fe50d8b4567.jpg" class="imageflottante" width="50" alt="Pop-corn" title="pop pop pop corn !"/>
-	En se basant sur les données du <a href = "https://www.transtats.bts.gov/">Bureau of Transportation Statistics </a> pour l'année 2016, 
-	je vous propose une estimation du retard (ou de l'avance !) de votre vol. Pour cela, voici les paramètres nécessaires:<br />
+	<img src="https://investir.lesechos.fr/medias/2018/07/05/1777382_1530856525_1773226-1529420046-1755491-1523365149-airbus-family-flight_565x399p.jpg" class="imageflottante" align = "left" alt=" " title="Airbus"/>
+	Based on data extracted from <a href = "https://www.transtats.bts.gov/">Bureau of Transportation Statistics </a> for 2016, 
+	here is a tool to estimate your flight delay (or, let's be foolish, early arrival!). To do so, you are asked to provide the following information:<br />
 </p>
 <p>
 	<ul>
-		<li>Date de départ du vol (format <b>jj/mm/aaaa</b>)</li>
-		<li>Heure -locale- de départ du vol (format <b>hhmm</b>)</li>
-		<li>Heure -locale- d'arrivée prévue du vol (format <b>hhmm</b>)</li>
-		<li>Durée prévue du vol (en minutes)</li>
-		<li>Identifiant de l'aéroport de départ</li>
-		<li>Identifiant de l'aéroport d'arrivée</li>
-		<li>Compagnie aérienne</li>
+		<li>Date of departure (format <b>dd/mm/yyyy</b>)</li>
+		<li>Departure hour (format <b>hhmm</b>)</li>
+		<li>Arrival hour (format <b>hhmm</b>)</li>
+		<li>Scheduled flight time (in min)</li>
+		<li>Departure Airport</li>
+		<li>Destination Airport</li>
+		<li>Airline company</li>
 	</ul>
 </p>
 
 <form method="post" action="aeroport">
 		<p>
 		<label for="date_dep">Date de départ</label>: 
-		<input type="text" name="date_dep" id="date_dep" placeholder="01/03/2018" size=20 required/><br />
+		<input type="text" name="date_dep" id="date_dep" placeholder="15/07/2018" size=20 required/><br />
 		<label for="heure_dep">Heure de départ (locale)</label>: 
-		<input type="text" name="heure_dep" id="heure_dep" placeholder="1230" size=20 required/><br />
+		<input type="text" name="heure_dep" id="heure_dep" placeholder="2045" size=20 required/><br />
 		<label for="heure_arr">Heure d'arrivée (locale)</label>: 
-		<input type="text" name="heure_arr" id="heure_arr" placeholder="1545" size=20 required/><br />
+		<input type="text" name="heure_arr" id="heure_arr" placeholder="1035" size=20 required/><br />
 		<label for="duree_totale">Durée du vol</label>: 
 		<input type="text" name="duree_totale" id="duree_totale" placeholder="195" size=20 required/><br />
 	</p>
 	<p>
-		<label for="compagnie">Compagnie</label>: 
+		<label for="compagnie">Compagny</label>: 
 		<select name="compagnie">
 			<option>AA
 			<option>AS
