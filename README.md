@@ -8,15 +8,15 @@ Based on the database available on https://www.transtats.bts.gov/, here is an ap
 
 Check the app: https://projet4-marine.herokuapp.com
 
-## :books:  Table of content
+## :books: Table of content
 
-- [Data Cleaning and Exploratory Analysis](#Data-Cleaning-and-Exploratory-Analysis )
-- [Machine Learning](#computer-Machine-Learning)
+- [Data Cleaning and Exploratory Analysis](#detective-Data_Cleaning_and_Exploratory_Analysis )
+- [Machine Learning](#computer-Machine_Learning)
 - [API](#rocket-API)
-- [Support](#hammer-and-wrench-support)
+- [Support](#hammer_and_wrench-support)
 - [Contributing](#memo-contributing)
 
-## :detective:  Data Cleaning and Exploratory Analysis 
+## :detective: Data Cleaning and Exploratory Analysis 
 
 Let's clean the data set and do a first exporatory analysis to check what's the data look like. You can find the results in the ExploratoryAnalysis file
 
@@ -24,21 +24,21 @@ Let's clean the data set and do a first exporatory analysis to check what's the 
 
 In the file MachineLearning, you can find different algorithms applied to the dataset
 - Linear Regression
-- Polynomial Regressin
+- Polynomial Regression
 - Ridge
 - Lasso
 - Elastic Net
 
-## :rocket:  API
+## :rocket: API
 
 Once the best algorithm has been selected, it's time to create the API. HTML template can be found in the templates folder. 
 
 We're done ! :zap::airplane: https://projet4-marine.herokuapp.com :airplane::zap:
 
-## Support
+## :hammer_and_wrench: Support
 
 Please [open an issue](https://github.com/MarineJL/projet4/issues/new) for support.
 
-## Contributing
+## :memo: Contributing
 
 Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/MarineJL/projet4/compare/).
