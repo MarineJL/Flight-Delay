@@ -11,10 +11,10 @@ Check the app: https://projet4-marine.herokuapp.com
 ## :books:  Table of content
 
 - [Data Cleaning and Exploratory Analysis](#Data-Cleaning-and-Exploratory-Analysis )
-- [Machine Learning](#Machine-Learning)
-- [API](#API)
-- [Support](#support)
-- [Contributing](#contributing)
+- [Machine Learning](#computer-Machine-Learning)
+- [API](#rocket-API)
+- [Support](#hammer-and-wrench-support)
+- [Contributing](#memo-contributing)
 
 ## :detective:  Data Cleaning and Exploratory Analysis 
 
