@@ -1,6 +1,6 @@
 # :airplane:   Flight Delay Forecast  
 
-[badge](https://img.shields.io/badge/language-python-blue.svg)
+![badge](https://img.shields.io/badge/language-python-html-blue.svg)
 
 Based on the database available on https://www.transtats.bts.gov/, here is an app to check if your next flight will be delayed ! :clock9:
 
