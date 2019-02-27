@@ -18,16 +18,17 @@ Check the app: https://projet4-marine.herokuapp.com
 
 ## :detective: Data Cleaning and Exploratory Analysis 
 
-Let's clean the data set and do a first exporatory analysis to check what's the data look like. You can find the results in the ExploratoryAnalysis file
+Let's clean the data set and do a first exporatory analysis to check what's the data look like. You can find the results in the ExploratoryAnalysis.ipynb file
 
 ## :computer:  Machine Learning
 
-In the file MachineLearning, you can find different algorithms applied to the dataset
+In the MachineLearning.ipynb file, you can find different algorithms applied to the dataset
 - Linear Regression
 - Polynomial Regression
 - Ridge
 - Lasso
 - Elastic Net
+- Random Forests
 
 ## :rocket: API
 
