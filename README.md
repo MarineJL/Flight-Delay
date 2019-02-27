@@ -1,5 +1,6 @@
-# :airplane: Flight Delay Forecast  [language](https://img.shields.io/badge/language-python-blue.svg)
+# :airplane:  Flight Delay Forecast  
 
+[language](https://img.shields.io/badge/language-python-blue.svg)
 
 Based on the database available on https://www.transtats.bts.gov/, here is an app to check if your next flight will be delayed ! :clock9:
 
@@ -7,19 +8,19 @@ Based on the database available on https://www.transtats.bts.gov/, here is an ap
 
 Check the app: https://projet4-marine.herokuapp.com
 
-## :books: Table of content
+## :books:  Table of content
 
-- [Data Cleaning and Exploratory Analysis](#Data Cleaning and Exploratory Analysis )
-- [Machine Learning](#Machine Learning)
+- [Data Cleaning and Exploratory Analysis](#Data-Cleaning-and-Exploratory-Analysis )
+- [Machine Learning](#Machine-Learning)
 - [API](#API)
 - [Support](#support)
 - [Contributing](#contributing)
 
-## :detective: Data Cleaning and Exploratory Analysis 
+## :detective:  Data Cleaning and Exploratory Analysis 
 
 Let's clean the data set and do a first exporatory analysis to check what's the data look like. You can find the results in the ExploratoryAnalysis file
 
-## :computer: Machine Learning
+## :computer:  Machine Learning
 
 In the file MachineLearning, you can find different algorithms applied to the dataset
 - Linear Regression
@@ -28,7 +29,7 @@ In the file MachineLearning, you can find different algorithms applied to the da
 - Lasso
 - Elastic Net
 
-## :rocket: API
+## :rocket:  API
 
 Once the best algorithm has been selected, it's time to create the API. HTML template can be found in the templates folder. 
 
