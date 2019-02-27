@@ -1,25 +1,38 @@
-# projet4
+# :airplane: Flight Delay Forecast  [language](https://img.shields.io/badge/language-python-blue.svg)
 
-> Here is an app to check if your next flight will be delayed !
 
-Based on the database available on https://www.transtats.bts.gov/, here is an app to check if your next flight will be delayed !
+Based on the database available on https://www.transtats.bts.gov/, here is an app to check if your next flight will be delayed ! :clock9:
 
-## :books:Table of content
+> This project is part of the Data Scientist track on OpenClassrooms. The objective is to create a user-friendly interface where the flight delay is computed when a user enter his flight details. 
 
-- [Installation](#installation)
-- [Usage](#usage)
+Check the app: https://projet4-marine.herokuapp.com
+
+## :books: Table of content
+
+- [Data Cleaning and Exploratory Analysis](#Data Cleaning and Exploratory Analysis )
+- [Machine Learning](#Machine Learning)
+- [API](#API)
 - [Support](#support)
 - [Contributing](#contributing)
 
-## Installation
+## :detective: Data Cleaning and Exploratory Analysis 
 
-```sh
-```
+Let's clean the data set and do a first exporatory analysis to check what's the data look like. You can find the results in the ExploratoryAnalysis file
 
-## Usage
+## :computer: Machine Learning
 
-```sh
-```
+In the file MachineLearning, you can find different algorithms applied to the dataset
+- Linear Regression
+- Polynomial Regressin
+- Ridge
+- Lasso
+- Elastic Net
+
+## :rocket: API
+
+Once the best algorithm has been selected, it's time to create the API. HTML template can be found in the templates folder. 
+
+We're done ! :zap::airplane: https://projet4-marine.herokuapp.com :airplane::zap:
 
 ## Support
 
